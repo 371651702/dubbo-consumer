@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DubboDemoController {
 
-    @Autowired(required = false)
+    @Autowired
     private IDemoService demoService;
 
     @RequestMapping("/save")
